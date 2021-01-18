@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 's3!qln_z2(k6w-^6dd+4w%9^-ovgmt8x+^ir2xr412avzssd-o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'srinidhiblogapp.herokuapp.com']
 
 
 # Application definition
